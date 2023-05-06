@@ -1,0 +1,21 @@
+.btn {
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 15px;
+
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.6s;
+  }
+
+  .btn + .btn {
+    margin-left: 15px;
+  }
+  .btn:hover {
+    color: white;
+    background-color: rgb(8, 8, 8);
+    box-shadow: 4px 4px 8px 0px rgba(17, 17, 17, 0.2);
+  }
